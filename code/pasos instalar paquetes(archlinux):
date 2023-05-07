@@ -1,0 +1,20 @@
+pasos instalar paquetes(archlinux):
+
+1_clonar de git
+git clone https://aur.archlinux.org/snapd.git
+1_abrir repositorio
+cd snap
+makepkg -si
+
+para instalar librerias(modulos):
+
+_verificar instalacion de python
+
+_Instalacion de pip:
+curl -O https://bootstrap.pypa.io/get-pip.py
+
+python get-pip.py
+
+sudo python get-pip.py
+
+pip install "nombreLibreria"

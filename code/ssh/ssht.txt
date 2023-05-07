@@ -1,0 +1,104 @@
+intalar libreria
+sudo pacman -Sy openssh-server
+
+iniciar servidor(host) 
+ssh nico@192.168.100.177
+
+abrir: sudo /etc/ssh/sshd_config
+
+Port 22
+LoginGraceTime 2m
+PermitRootLogin no
+StrictModes yes
+MaxAuthTries 5
+MaxSessions 5
+x11Forwarding no
+*guardar confg
+
+reiniciar ssh
+sudo systemctl restart sshd
+
+conexion(liente):
+ssh -p 22 nico@192.168.100.177(tiene que tener el mismo nombre que el host)
+
+cerrar ssh: logout
+
+mdkir:crea un directorio
+mkdir prueba
+
+touch:crea un archivo si existe
+touch hola.txt
+
+mv:mueve el archivo
+mv hola.txt prueba/
+
+cp:copia un archivo
+cp prueba/hola.txt .
+
+cd ..:vuelve a la ubicacion anterior de cd
+cd ..
+
+rm:borra un archivo
+rm hola.txt
+
+nano:editor de texto
+nano hola.txt
+
+vim:lo mismo que nano
+vim hola.txt
+
+wget:descarga un archivo de internet
+wget fredrikson.ar/resume.pdf
+intalar libreria
+sudo pacman -Sy openssh-server
+
+iniciar servidor 
+
+ssh nico@192.168.100.177
+
+abrir: sudo /etc/ssh/sshd_config
+
+Port 22
+LoginGraceTime 2m
+PermitRootLogin no
+StrictModes yes
+MaxAuthTries 5
+MaxSessions 5
+x11Forwarding no
+*guardar confg
+
+reiniciar ssh
+sudo systemctl restart sshd
+
+conexion(otrapc):
+ssh -p 22 usuario1@192.168.100.177
+
+cerrar ssh: logout
+
+mdkir:crea un directorio
+mkdir prueba
+
+touch:crea un archivo si existe
+touch hola.txt
+
+mv:mueve el archivo
+mv hola.txt prueba/
+
+cp:copia un archivo
+cp prueba/hola.txt .
+
+cd ..:vuelve a la ubicacion anterior de cd
+cd ..
+
+rm:borra un archivo
+rm hola.txt
+
+nano:editor de texto
+nano hola.txt
+
+vim:lo mismo que nano
+vim hola.txt
+
+wget:descarga un archivo de internet
+wget fredrikson.ar/resume.pdf
+

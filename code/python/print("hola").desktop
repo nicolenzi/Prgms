@@ -1,0 +1,20 @@
+#
+#array = [1,2,3]
+#tupla = (4,5,6)
+#diccionario = {7:"siete",8:"ocho",9:"nueve"}
+#def argumentos(a,b):
+#	print(a+b)
+
+#print(argumentos(2,3))
+#print(array,tupla,diccionario)
+#print(tupla[1])
+#print(diccionario[7])
+
+#lista = [0,0,1]
+#print(any(lista))
+#
+#
+#lista1 = [0,"",0,val]
+#print(any(lista1))
+
+
